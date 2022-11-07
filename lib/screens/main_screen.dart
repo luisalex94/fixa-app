@@ -92,6 +92,14 @@ class _MainScreenState extends State<MainScreen> with ChangeNotifier {
                 informacionScreenPopup();
               },
             ),
+            IconButton(
+              icon: const Icon(
+                Icons.gamepad_outlined,
+                size: 32,
+                color: Colors.white,
+              ),
+              onPressed: () {},
+            )
             /*IconButton(
               icon: const Icon(
                 Icons.settings,
