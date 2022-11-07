@@ -5,8 +5,8 @@ class InformacionScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String version = 'Fixa @Versión 0.4.0';
-    String fecha = '23 octubre 2022';
+    String version = 'Fixa @Versión 0.5.0';
+    String fecha = '07 noviembre 2022';
     String informativo001 =
         'Esta es una versión de prueba de Fixa, una APP especialmente diseñada para el control de la nutrición del usuario en base a los requerimientos brindados por un profesional de la salud.';
     String informativo002 =
