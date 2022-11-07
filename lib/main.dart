@@ -1,6 +1,7 @@
 import 'package:fixa_app/screens/screens_alimentos/screens/alimentos_categorias_screen.dart';
 import 'package:fixa_app/screens/screens_canasta/screens/canasta_screen.dart';
 import 'package:fixa_app/screens/screens_info/consejos_screen.dart';
+import 'package:fixa_app/screens/screens_info/informacion_complementaria.dart';
 import 'package:fixa_app/screens/screens_info/super_admin_screen.dart';
 import 'package:fixa_app/screens/screens_recetas/screens/agrega_receta_screen.dart';
 import 'package:fixa_app/screens/screens_recetas/screens/edita_receta_screen.dart';
@@ -79,6 +80,8 @@ class MyApp extends StatelessWidget {
             CanastaScreen.routeName: (context) => const CanastaScreen(),
             ConsejosScreen.routeName: (context) => const ConsejosScreen(),
             SuperAdminScreen.routeName: (context) => const SuperAdminScreen(),
+            InformacionComplementaria.routeName: (context) =>
+                const InformacionComplementaria(),
           }),
     );
   }

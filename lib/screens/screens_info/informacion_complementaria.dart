@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({Key key}) : super(key: key);
+class InformacionComplementaria extends StatelessWidget {
+  const InformacionComplementaria({Key key}) : super(key: key);
+  static const routeName = "./informacion_complementaria";
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +22,7 @@ class MyWidget extends StatelessWidget {
       ),
       child: Scaffold(
         appBar: AppBar(
+          iconTheme: const IconThemeData(color: Colors.white),
           elevation: 0,
           backgroundColor: Colors.transparent,
         ),
@@ -28,7 +30,7 @@ class MyWidget extends StatelessWidget {
         body: Container(
           padding: const EdgeInsets.all(10),
           child: const Text(
-            "Texto 1",
+            "Pruebas en GitHub - Pantalla información complementaria",
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.w300,

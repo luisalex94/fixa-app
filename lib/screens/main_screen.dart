@@ -3,6 +3,7 @@ import 'package:fixa_app/screens/screens_alimentos/screens/alimentos_categorias_
 import 'package:fixa_app/screens/screens_canasta/screens/canasta_screen.dart';
 import 'package:fixa_app/screens/screens_info/consejos_screen.dart';
 import 'package:fixa_app/screens/screens_info/info_screen.dart';
+import 'package:fixa_app/screens/screens_info/informacion_complementaria.dart';
 import 'package:fixa_app/screens/screens_recetas/screens/recetas_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -98,7 +99,10 @@ class _MainScreenState extends State<MainScreen> with ChangeNotifier {
                 size: 32,
                 color: Colors.white,
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context)
+                    .pushNamed(InformacionComplementaria.routeName);
+              },
             )
             /*IconButton(
               icon: const Icon(
